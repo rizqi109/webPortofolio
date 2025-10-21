@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Rizqi Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-warning" href="index.html">Rizqi Nova</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-md-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero d-flex flex-column justify-content-center align-items-center text-center text-light">
+    <div data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="display-4 fw-bold mb-3">Halo, saya <span class="text-warning">Rizqi Nova</span></h1>
+      <h3 class="fw-semibold mb-3">
+        <span id="changing-text">Frontend Developer</span>
+      </h3>
+      <p class="lead mb-4">Saya mengubah gagasan kreatif menjadi tampilan web yang menarik, berfungsi dengan baik, dan responsif.</p>
+      <div class="d-flex gap-3 justify-content-center flex-wrap">
+        <a href="project.html" class="btn btn-warning btn-lg px-4 py-2">View My Work</a>
+        <a href="contact.html" class="btn btn-outline-light btn-lg px-4 py-2">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="py-5 stats-section">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card stat-card text-center border-0 shadow-sm h-100">
+            <div class="card-body py-4">
+              <div class="stat-icon bg-warning rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                <i class="fas fa-project-diagram text-white fa-2x"></i>
+              </div>
+              <h3 class="stat-number fw-bold text-dark mb-2">8+</h3>
+              <h5 class="card-title fw-semibold">Projects Completed</h5>
+              <p class="card-text text-muted">Berhasil menyelesaikan berbagai proyek web dengan memanfaatkan teknologi modern.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card stat-card text-center border-0 shadow-sm h-100">
+            <div class="card-body py-4">
+              <div class="stat-icon bg-info rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                <i class="fas fa-code text-white fa-2x"></i>
+              </div>
+              <h3 class="stat-number fw-bold text-dark mb-2">1+</h3>
+              <h5 class="card-title fw-semibold">Years Experience</h5>
+              <p class="card-text text-muted">Memiliki pengalaman 1 tahun pada bidang ini</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card stat-card text-center border-0 shadow-sm h-100">
+            <div class="card-body py-4">
+              <div class="stat-icon bg-success rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                <i class="fas fa-tools text-white fa-2x"></i>
+              </div>
+              <h3 class="stat-number fw-bold text-dark mb-2">12+</h3>
+              <h5 class="card-title fw-semibold">Tools</h5>
+              <p class="card-text text-muted">Mampu menggunakan berbagai alat bantu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold mb-3">Proyek Terbaru</h2>
+        <p class="text-muted lead">Yuk, lihat beberapa proyek terbaru saya!</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card project-home-card shadow-sm h-100 border-0">
+            <div class="card-body p-4 text-center">
+              <div class="project-icon-home bg-warning rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                <i class="fas fa-laptop-code text-white fa-2x"></i>
+              </div>
+              <h5 class="card-title fw-semibold mb-3">Portfolio Website</h5>
+              <p class="card-text text-muted mb-3">Sebuah portofolio modern dan responsif yang dikembangkan menggunakan Bootstrap dengan sentuhan animasi CSS buatan sendiri.</p>
+              <div class="mb-3">
+                <span class="badge bg-dark me-1">HTML</span>
+                <span class="badge bg-dark me-1">CSS</span>
+                <span class="badge bg-dark">Bootstrap</span>
+              </div>
+              <a href="project.html" class="btn btn-outline-dark btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card project-home-card shadow-sm h-100 border-0">
+            <div class="card-body p-4 text-center">
+              <div class="project-icon-home bg-info rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                <i class="fas fa-calculator text-white fa-2x"></i>
+              </div>
+              <h5 class="card-title fw-semibold mb-3">Math Quiz App</h5>
+              <p class="card-text text-muted mb-3">Kuis interaktif dengan fitur papan peringkat dan sistem skor.</p>
+              <div class="mb-3">
+                <span class="badge bg-dark me-1">C++</span>
+                <span class="badge bg-dark">Algorithm</span>
+              </div>
+              <a href="project.html" class="btn btn-outline-dark btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card project-home-card shadow-sm h-100 border-0">
+            <div class="card-body p-4 text-center">
+              <div class="project-icon-home bg-danger rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                <i class="fas fa-heart text-white fa-2x"></i>
+              </div>
+              <h5 class="card-title fw-semibold mb-3">MatchLinker</h5>
+              <p class="card-text text-muted mb-3">Program Pencari Jodoh.</p>
+              <div class="mb-3">
+                <span class="badge bg-dark me-1">C++</span>
+                <span class="badge bg-dark">Algorithm</span>
+              </div>
+              <a href="project.html" class="btn btn-outline-dark btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="project.html" class="btn btn-warning btn-lg">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center py-4">
+    <div class="container">
+      <p class="mb-2">&copy; 2025 Rizqi Nova. Seluruh hak cipta dilindungi undang-undang.</p>
+    </div>
+  </footer>
+
+  <button id="themeToggle" class="btn theme-toggle" title="Switch to Dark Mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
